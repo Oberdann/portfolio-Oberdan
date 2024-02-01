@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-Oberdan/static/css/main.d06c3b59.css",
+    "main.js": "/portfolio-Oberdan/static/js/main.a7fe067e.js",
+    "static/media/img1.jpg": "/portfolio-Oberdan/static/media/img1.78b69915cd4a9d3b3d53.jpg",
+    "static/media/pessoaProgramacao.png": "/portfolio-Oberdan/static/media/pessoaProgramacao.77214fe1c8e2cdc93f62.png",
+    "static/media/postgresql.png": "/portfolio-Oberdan/static/media/postgresql.12c2aeeda404fd343fa4.png",
+    "static/media/whatsapp.png": "/portfolio-Oberdan/static/media/whatsapp.9516fd0e54d4cc408577.png",
+    "static/media/instagram.png": "/portfolio-Oberdan/static/media/instagram.15d77dca0ebcbb9aa0d5.png",
+    "static/media/mongodb.png": "/portfolio-Oberdan/static/media/mongodb.7ca921ecce03c0ae3172.png",
+    "static/media/github.png": "/portfolio-Oberdan/static/media/github.f11021803f68852df283.png",
+    "static/media/linkedin.png": "/portfolio-Oberdan/static/media/linkedin.6892b3ae328c7a1e055f.png",
+    "static/media/typescript.png": "/portfolio-Oberdan/static/media/typescript.af108db04a54d784da9b.png",
+    "static/media/javascript.png": "/portfolio-Oberdan/static/media/javascript.3dfb665e058d08c99f28.png",
+    "static/media/nest.png": "/portfolio-Oberdan/static/media/nest.25e86730bfbb9154e92e.png",
+    "static/media/react.png": "/portfolio-Oberdan/static/media/react.c425ea602e803e5fc77d.png",
+    "static/media/java.png": "/portfolio-Oberdan/static/media/java.3fb306839c26625b6d09.png",
+    "index.html": "/portfolio-Oberdan/index.html",
+    "main.d06c3b59.css.map": "/portfolio-Oberdan/static/css/main.d06c3b59.css.map",
+    "main.a7fe067e.js.map": "/portfolio-Oberdan/static/js/main.a7fe067e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d06c3b59.css",
+    "static/js/main.a7fe067e.js"
+  ]
+}
