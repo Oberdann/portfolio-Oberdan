@@ -41,7 +41,7 @@ function Home({ widthScreen }) {
                             to="/contato"
                             text="Contate-me"
                             customClass="contact"
-                            classWidth={`${widthScreen < 641 ? "button_cell" : ""}`}/>
+                            classWidth={`${widthScreen < 461 ? "button_cell" : ""}`}/>
 
                         </Container>
 
