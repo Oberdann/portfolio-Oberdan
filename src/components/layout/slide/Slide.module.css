@@ -1,0 +1,32 @@
+.slide {
+    text-align: center;
+}
+
+.img {
+    width: 15em;
+}
+
+.text {
+    width: 15em;
+    font-size: 1em;
+    color: #474747;
+}
+
+.text_sobremim {
+    margin-top: 2em;
+    font-weight: 300;
+    color: #FFFF;
+    line-height: 1.7em;
+    height: 15em;
+}
+
+.img_sobremim {
+    margin-top: 2em;
+    width: 10em;
+}
+
+.center {
+    display: inline-block;
+    vertical-align: middle;
+}
+

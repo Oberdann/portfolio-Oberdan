@@ -1,0 +1,16 @@
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.sobremim {
+    margin: 5em auto;
+}
+
+.icons {
+    margin: 0;
+    display: flex;
+}

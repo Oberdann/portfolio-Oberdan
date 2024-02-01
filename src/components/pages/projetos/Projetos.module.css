@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    font-weight: 400;
+    padding: .2em;
+    margin: .5em auto;
+    width: 10em;
+    border-bottom: .2em solid;
+    border-image: linear-gradient(-45deg, #02ff17, #1f06ff);
+    border-image-slice: 1;
+    font-size: 2em;
+}
+
+.text{
+    width: 50%;
+    color: #474747;
+    font-size: 1.2em;
+    margin: 2em auto;
+}

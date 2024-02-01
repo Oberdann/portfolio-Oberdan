@@ -1,0 +1,62 @@
+.navbar {
+    width: 100%;
+    padding: 1em;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.name span {
+    color: #0b3ad3;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+
+.list span {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 7em;
+    padding: 1em;
+    height: 180%;
+    background-color: #2858f7;
+    font-weight: 400;
+    border-radius: 0px 0px 50% 50%;
+    transition: .5s;
+}
+
+.item {
+    margin: auto 2em;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+}
+
+.item a {
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+
+.active a {
+    color: #ffff;
+}
+
+.div_menu {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+@media (max-width: 415px) {
+    .name {
+        font-size: 1.5em;
+    }
+}
