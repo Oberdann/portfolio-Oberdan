@@ -1,11 +1,9 @@
-import { useState, useEffect } from "react"
+import { useState} from "react"
 import { Link } from "react-router-dom"
 import { FaBars, FaTimes } from "react-icons/fa";
 
 
-
 import styles from "./Menu.module.css"
-import Container from "../container";
 
 
 function Menu() {
@@ -19,20 +17,20 @@ function Menu() {
                 activeMenu && (
                     <ul className={styles.list}>
 
-                        <li className={`${styles.item} `}>
-                            <Link to="/">Home</Link>
+                        <li  className={`${styles.item} `}>
+                            <Link onClick={clickInBars} to="/">Home</Link>
                         </li>
 
-                        <li className={`${styles.item}`}>
-                            <Link to="/sobremim">Sobre mim</Link>
+                        <li  className={`${styles.item}`}>
+                            <Link onClick={clickInBars} to="/sobremim">Sobre mim</Link>
                         </li>
 
-                        <li className={`${styles.item} $`} >
-                            <Link to="/projetos">Projetos</Link>
+                        <li  className={`${styles.item} $`} >
+                            <Link onClick={clickInBars} to="/projetos">Projetos</Link>
                         </li>
 
-                        <li className={`${styles.item} `} >
-                            <Link to="/contato">Contato</Link>
+                        <li  className={`${styles.item} `} >
+                            <Link onClick={clickInBars} to="/contato">Contato</Link>
                         </li>
 
                     </ul>

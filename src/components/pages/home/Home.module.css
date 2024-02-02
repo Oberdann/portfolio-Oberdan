@@ -1,10 +1,11 @@
+
 .section_container {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2.7em;
-    height: 60vh;
+    height: calc(80vh - 1em); 
+
 }
 
 .div_section {

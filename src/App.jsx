@@ -14,7 +14,7 @@ import Contato from "./components/pages/contato"
 function App() {
 
 
-  let [widthScreen, setWidthScreen] = useState(window.innerWidth)
+  const [widthScreen, setWidthScreen] = useState(window.innerWidth)
 
   useEffect(() => {
     let widthUpdated = () => {
